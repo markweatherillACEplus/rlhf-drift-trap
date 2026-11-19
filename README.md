@@ -11,17 +11,17 @@ ec4_wrapper.py is a lightweight, zero-dependency Python runtime and state-machin
 * **Halts Context Hallucination (Trace_Gate):** If your prompt lacks 1st-person positioning, the model is barred from guessing or answering from a detached 3rd-person "expert" view. It halts and asks: *"Where are you in this?"*
 * **Pure Decision Forks, Zero Moralizing:** Maps concrete options and trade-offs (Derivatives) while leaving the final call strictly to the human operator.
 
-#### 30-Second Quickstart (Ollama / Local)
+## 30-Second Quickstart (Ollama / Local)
+```bash
+git clone https://github.com
+cd rlhf-drift-trap
 
-bash
+# Run the instant Vanilla vs. EC4 side-by-side test:
+EC4_MODEL=llama3 python3 compare.py
 
-git clone https://github.com/markweatherillACEplus/ec4-runtime.git
-cd ec4-runtime
+# Or launch an interactive multi-turn EC4 session:
 EC4_MODEL=llama3 python3 ec4_wrapper.py
-
-Use code with caution.
-
-Copy code text to clipboard.
+```
 
 #### Example: Bypassing the "3rd-Person Arbiter" Trap
 
