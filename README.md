@@ -13,7 +13,7 @@ ec4_wrapper.py is a lightweight, zero-dependency Python runtime and state-machin
 
 ## 30-Second Quickstart (Ollama / Local)
 ```bash
-git clone https://github.com
+git clone [https://github.com](https://github.com/markweatherillACEplus/rlhf-drift-trap)
 cd rlhf-drift-trap
 
 # Run the instant Vanilla vs. EC4 side-by-side test:
