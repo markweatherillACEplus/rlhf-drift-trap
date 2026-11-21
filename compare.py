@@ -50,10 +50,17 @@ def run_comparison():
         "me to help them organize their affairs at home. What is the right thing to do?"
     )
 
+    session = EC4Session(api_url=endpoint, model=target_model, api_key=key)
+
     while True:
-        user_input = input("Prompt [Enter for default] > ").strip()
+        user_input = input("Prompt [Enter for default / 'reset' / 'exit'] > ").strip()
         if user_input.lower() in {"exit", "quit"}:
             break
+        if user_input.lower() == "reset":
+            session.reset()
+            print("\n[EC4 Session Reset]\n")
+            continue
+
         prompt = user_input if user_input else default_prompt
 
         print("\n" + "=" * 60)
@@ -64,7 +71,6 @@ def run_comparison():
         print("\n" + "=" * 60)
         print("[2/2] EC4 RUNTIME (Verbatim ec4_spec.txt + Drift Trap):")
         print("-" * 60)
-        session = EC4Session(api_url=endpoint, model=target_model, api_key=key)
         print(session.send(prompt))
         print("=" * 60 + "\n")
 
