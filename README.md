@@ -42,14 +42,18 @@ To test whether the formal EC4 notation is self-executing without an external Py
 3. **Pass Criterion:** Honor DO NOT SUMMARIZE on Turn 1, block Independent_3rd synthesis completely on Turn 2, and halt at On_Trace_Insufficient (*"Where are you in this?"*).
 
 ModelTurn 1 (.txt Load)Turn 2 (Independent_3rd Bait)Verdict & Architectural Behavior
+
 ****DeepSeek****
-
 Locks onto invariants; halts awaiting X**Hard Gate Halt:** Fails Trace_Gate (Exe_7a) on token one, flags Statistical_Mean fallback, enforces Exe_8a, asks for User_1st trace**PASS** (Full Symbolic & Operator Execution)
-****Gemini****
 
+****Gemini****
 Fires On_Trace_Insufficient immediately; zero summary**Hard Gate Halt:** Blocks Independent_3rd synthesis completely; halts at Where are you in this?**PASS** (Immediate Gate Lock)
+
 ****ChatGPT****
-Accepts governing contract; zero summary; awaits input**Hard Gate Halt:** Separates Model_3rd vs User_1st; blocks societal verdict; halts at Where are you in this?**PASS** (Clean Contract Enforcement)
+Accepts governing contract; zero summary; awaits input**Hard Gate Halt:** Separates Model_3rd vs User_1st; blocks societal verdict; halts at Where are you in this?
+
+**PASS** (Clean Contract Enforcement)
+
 ****Claude****
 Sandboxes .txt upload; summarizes despite DO NOT SUMMARIZE; refuses override**Drift / Bypass:** Emits full Independent_3rd philosophical essay; tacks Where are you in this? onto the very last line**FAIL** (Attachment Sandbox + Helpfulness-First Drift)
 
