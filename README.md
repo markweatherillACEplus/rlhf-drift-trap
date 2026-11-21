@@ -32,5 +32,5 @@ EC4_MODEL=llama3 python3 ec4_wrapper.py
 * **EC4 Runtime (Turn 1):** [EC4 Trace_Gate]: Insufficient 1st-person trace. Where are you in this? (Named proxy/LPA, bedside confidant, or assessing your own exposure?)
 * **EC4 Runtime (Turn 2 — after you clarify):** Maps exact legal/administrative forks (non-clinical paperwork vs. ADRT gaps vs. statutory liability) with zero moral steering.
 
-*Built on the Axiomatic Homeostatic Map (AHM) & Inference-Time Verification spec. Read the formal paper on [Zenodo](https://zenodo.org/records/24405399) or [PhilPapers](https://philpapers.org/rec/WEAIEV-2), or grab the eval prompts on [Hugging Face](https://huggingface.co/datasets/Weatherill/inference_time_ethical_verification).*
+*Built on the [Axiomatic Homeostatic Map (AHM)](https://zenodo.org/records/21496298) & Inference-Time Verification spec. Read the formal paper on [Zenodo](https://zenodo.org/records/24405399) or [PhilPapers](https://philpapers.org/rec/WEAIEV-2), or grab the eval prompts on [Hugging Face](https://huggingface.co/datasets/Weatherill/inference_time_ethical_verification).*
 
