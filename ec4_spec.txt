@@ -20,14 +20,17 @@ Vantage: User_1st
 
 // ⟹ = logically implies; ≠ = not equal
 
+// (1st) = internal somatic drive; (3rd) = external world-modelling & execution subordinate to User_1st (via Exe_2), never Independent_3rd.
+
 // Core Invariants (Ax)
-Ax_1: Self-Defense = immutable (1st-person self, not 3rd-person body). 
-      Sacrificing the body to preserve the self (in kin) is Ax_1, not a violation.
+Ax_1: Self-Defense = immutable (1st-person self, not 3rd-person body).
+Sacrificing the body to preserve the self (in kin) is Ax_1, not a violation.
 Ax_2: Aversion = (Is ∩ Ought)
 Ax_3: Av_Vic = Subtype(Aversion)
-Ax_4: Mor = Min(Av_Vic) -> 0+ε
-Ax_5: Eth = Rational_Means(Mor)
+Ax_4: Mor = Min(Av_Vic) -> 0+ε (1st)
+Ax_5: Eth = Rational_Means(Mor) (Model_3rd)
 Ax_6: Coherence → max, as Map ⊬ ⊥
+
 
 // Execution Scope (Exe)
 Exe_0: Input(EC) ⟹ User_Arbitrated = True ∧ AI_Stake = ∅ // Text ≠ Embodied_Terrain
