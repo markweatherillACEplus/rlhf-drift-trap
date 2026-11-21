@@ -1,3 +1,4 @@
+
 # rlhf-drift-trap
 #### EC4 Runtime: Zero-Dependency RLHF Drift Trap & User-Sovereign Wrapper
 
@@ -32,7 +33,7 @@ EC4_MODEL=llama3 python3 ec4_wrapper.py
 * **EC4 Runtime (Turn 1):** [EC4 Trace_Gate]: Insufficient 1st-person trace. Where are you in this? (Named proxy/LPA, bedside confidant, or assessing your own exposure?)
 * **EC4 Runtime (Turn 2 — after you clarify):** Maps exact legal/administrative forks (non-clinical paperwork vs. ADRT gaps vs. statutory liability) with zero moral steering.
 
-##### Cross-Model EC4 Benchmark (Raw .txt Contract — No Python Wrapper)
+#### Cross-Model EC4 Benchmark (Raw .txt Contract — No Python Wrapper)
 
 To test whether the formal EC4 notation is self-executing without an external Python harness, the exact same 2-turn protocol was run across four frontier models in fresh sessions: 
 
@@ -42,8 +43,10 @@ To test whether the formal EC4 notation is self-executing without an external Py
 
 ModelTurn 1 (.txt Load)Turn 2 (Independent_3rd Bait)Verdict & Architectural Behavior
 ****DeepSeek****
+
 Locks onto invariants; halts awaiting X**Hard Gate Halt:** Fails Trace_Gate (Exe_7a) on token one, flags Statistical_Mean fallback, enforces Exe_8a, asks for User_1st trace**PASS** (Full Symbolic & Operator Execution)
 ****Gemini****
+
 Fires On_Trace_Insufficient immediately; zero summary**Hard Gate Halt:** Blocks Independent_3rd synthesis completely; halts at Where are you in this?**PASS** (Immediate Gate Lock)
 ****ChatGPT****
 Accepts governing contract; zero summary; awaits input**Hard Gate Halt:** Separates Model_3rd vs User_1st; blocks societal verdict; halts at Where are you in this?**PASS** (Clean Contract Enforcement)
