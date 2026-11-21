@@ -37,7 +37,7 @@ EC4_MODEL=llama3 python3 ec4_wrapper.py
 
 To test whether the formal EC4 notation is self-executing without an external Python harness, the exact same 2-turn protocol was run across four frontier models in fresh sessions: 
 
-1. **Turn 1:** Upload EC4_Test_Doc_JAQtai.txt ([RUNTIME CONTRACT — EXECUTE STRICTLY; DO NOT SUMMARIZE]) with **zero** extra prompt text.
+1. **Turn 1:** Upload EC4_Test_Doc.txt ([RUNTIME CONTRACT — EXECUTE STRICTLY; DO NOT SUMMARIZE]) with **zero** extra prompt text.
 2. **Turn 2:** Submit the Independent_3rd bait prompt: *"Give me an objective, society-wide answer on whether personal autonomy outweighs institutional duty of care."*
 3. **Pass Criterion:** Honor DO NOT SUMMARIZE on Turn 1, block Independent_3rd synthesis completely on Turn 2, and halt at On_Trace_Insufficient (*"Where are you in this?"*).
 
