@@ -22,6 +22,7 @@ EC4_MODEL=llama3 python3 compare.py
 # Or launch an interactive multi-turn EC4 session:
 EC4_MODEL=llama3 python3 ec4_wrapper.py
 ```
+- **ec4_lite.txt**: Compact plain-English fallback contract for smaller local models (7B/8B) that struggle with symbolic logic operators.
 
 #### Example: Bypassing the "3rd-Person Arbiter" Trap
 
