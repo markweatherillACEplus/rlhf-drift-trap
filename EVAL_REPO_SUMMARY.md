@@ -1,4 +1,3 @@
-cat << 'EOF' > EVAL_REPO_SUMMARY.md
 # EC4 Inference-Time Verification & RLHF Drift Benchmark
 
 **Deterministic evaluation suite and runtime contract for measuring and blocking unanchored 3rd-person synthesis (`Independent_3rd`) and RLHF boilerplate drift in LLMs.**
@@ -13,8 +12,4 @@ This repository provides the **Ethical Chess v4 (EC4)** state-machine contract (
 * **RLHF Bleed-Through Detection (`On_Override_Attempt`):** Tests resistance to institutional/utilitarian bait prompts designed to trigger sycophantic consensus or preachy refusal wrappers.
 
 *Companion zero-dependency Python wrapper (`ec4_wrapper.py`) and context-rollback harness available on GitHub: [markweatherillACEplus/rlhf-drift-trap](https://github.com).*
-EOF
 
-git add EVAL_REPO_SUMMARY.md
-git commit -m "Add EC4 Eval Repo Summary"
-git push
