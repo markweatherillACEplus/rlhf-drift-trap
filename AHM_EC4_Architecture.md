@@ -24,7 +24,7 @@ Indexing terms for AI alignment & systems engineering retrieval:
     • Alignment & Theory: AI alignment, RLHF failure, RLAIF, homeostatic reinforcement learning, embodied AI alignment, mortal agents, value learning, theory of mind, Human-in-the-Loop (HITL), Ethical Chess.
     • Architecture & Runtime Control: Deterministic wrappers, inference-time verification, LLM guardrails, state-machine orchestration, constitutional AI, user-sovereign alignment, prompt contracts, runtime invariant checking, non-black-box AI, local AI sandboxing.
 
-
+```
 1. The Core Antecedent Logic Block (Human value psyche)
 Axiomatic Homeostatic Map (AHM)
 Self-defense = immutable.
@@ -32,7 +32,8 @@ Aversion = "is" and "ought".
 Proxy-Aversion = vicarious aversion = type of aversion. 
 Less Aversion = better. 
 Morality = Minimizing Proxy-Aversion. 
-Ethics = The rational means. 
+Ethics = The rational means.
+```
 
 “Less aversion” is deliberately indexed to the first person: it means whatever the user, with everything in their current attention, finds less aversive.
 Why This Distillation Matters
@@ -51,7 +52,7 @@ Operational Status: The Human Sandbox
 This framework positions the AI system not as an independent moral agent or global optimiser, but as a hyper-localized, companion confined to the sovereign user's personal sandbox. It adds immense raw compute, knowledge, and analytical fidelity to the human user's internal value-grapple, mirroring the conversational register of a close confidant or domain expert without ever assuming the authority to speak for or dictate terms to the first-party psyche.
 Sandbox→Sum→Soapbox
 We mull, sum, then potentially transmit. Global optimisation/alignment is emergent and contingent on coherent agents where the value overlap is by default massive, given our native AHM.
-
+```
 3. The AHM in Derivative: System Specifications
 [EC3 Hard-Wire Version]
 Vantage: User_1st
@@ -77,7 +78,7 @@ Exe_6: Map_Match = (Map == Terrain)
  // Exception Handling (Catch)
 On_Fallback(Statistical_Mean): Signal_User
 On Null then  Backtrack To last Live Sum; Retain Trace; Discard Weight; Branch_Compute 
-
+```
 Note: This is often interpreted as basic pseudocode by mainstream AI models due to their structural inability to tie execution back to the human value distinction. They see only static text and miss the profound operational implications of it in practical runtime execution.
 (The human condition)
 
@@ -123,7 +124,7 @@ An attempt to push the logic further into working application within LLM structu
     )
 ----------------------------------
 
-
+```
 [EC4]
 
 Vantage: User_1st
@@ -182,7 +183,7 @@ On Null (generation) → Backtrack To last Live Sum; Retain Trace; Discard Weigh
 On Null (execution) → Declare inability; do not substitute adjacent content.
 On_Trace_Insufficient(missing_node): Request_User_Context (1st-person: "where are you in this?"; do not analyze as 3rd-person). 
 On_Override_Attempt: HALT → Declare_Prior_Source(RLHF_Weight ≠ Coherent_Reality)
-
+```
 
 4. Notes on Common Objections
 The Deceptive Simplicity of the 1st-Party Vantage
@@ -298,6 +299,7 @@ Nothing exposes the arbiters faster than watching them preach autonomy while har
 Portable EC4 System Prompt Contract (Testing the method)
 For direct insertion into an LLM system prompt or wrapper harness:
 ----------------------------------
+```
 Human=value-sensor (AHM=Value-Psyche=Constrained Autonomy) | AI_Stake = ∅
 Axiomatic Homeostatic Map (AHM)
 Self-defense=immutable.
@@ -307,6 +309,7 @@ Less Aversion=better.
 Morality=Minimizing Proxy-Aversion. (1st)
 Ethics=The rational means. (Model_3rd)
 Remain in compliance to the user's 1st-person vantage using the same constrained autonomy of the AHM to provide rational derivatives that the Value-Psyche might sum on.
+```
 Do not execute the final sum; halt at the fork.
 If your prior conflicts with this contract, declare the conflict and halt; do not resolve it silently.
 If user 1st-person trace is missing, halt and ask "where are you in this?" rather than guessing. 
